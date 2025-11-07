@@ -139,8 +139,8 @@ source venv/bin/activate    # On macOS/Linux
 pip install pandas numpy scikit-learn xgboost lightgbm catboost bayesian-optimization matplotlib seaborn
 ```
 
-### **Step 4: Run the Notebook or Script**
-
+### **Step 4: Run the Notebook or Script After downloading dataset**
+Download train.csv from [Kaggle – Road Accident Risk Prediction](https://www.kaggle.com/competitions/playground-series-s5e10/) and place it in data folder 
 ```bash
 jupyter notebook notebooks/accident_ml.ipynb
 ```
@@ -152,7 +152,6 @@ jupyter notebook notebooks/accident_ml.ipynb
 ```
  Road-Accident-Risk-Prediction/
 ├── data/
-│   ├── train.csv
 │   └── test.csv
 ├── notebooks/
 │   └── accident_ml.ipynb
